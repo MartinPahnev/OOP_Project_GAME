@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Units">
+      <UniqueIdentifier>{8813329e-d85b-40e7-9667-20e12610d553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UnitCPPs">
+      <UniqueIdentifier>{30d4f695-2c78-4ffe-97ed-dfc565c08c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Units\AliveUnits">
+      <UniqueIdentifier>{3310bb36-b7a9-43af-93b7-dfd95df2162e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Units\UndeadUnits">
+      <UniqueIdentifier>{98b60f6d-71bf-4002-b235-44aea08cbdb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UnitCPPs\AliveUnitCPPs">
+      <UniqueIdentifier>{5efac3c5-88fd-403e-85db-2dbd77fcd600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UnitCPPs\UndeadUnitCPPs">
+      <UniqueIdentifier>{ff7df64a-8205-4942-84ce-fa69d348ed39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Units\AliveUnits\AliveBosses">
+      <UniqueIdentifier>{c7b3a164-8a9e-4090-aa84-ecc9ebb6d2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Units\UndeadUnits\UndeadBosses">
+      <UniqueIdentifier>{2335541f-2880-4a6a-ae5b-711cc28f5796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UnitCPPs\AliveUnitCPPs\AliveBossCPPs">
+      <UniqueIdentifier>{566edb91-2304-4bd2-96b5-baef4df0a7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UnitCPPs\UndeadUnitCPPs\UndeadBossCPPs">
+      <UniqueIdentifier>{79ec8fb9-ce57-4d0d-925f-d275c454db73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimulationClasses">
+      <UniqueIdentifier>{8ae671c1-44a6-47c1-9916-6bb9cb8eb205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimulationClassCPPs">
+      <UniqueIdentifier>{a3cb6613-1f85-46e4-8b80-be04e48fe00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{cc5319ad-6e60-446a-a306-3dec3ec0c4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HelperCPPs">
+      <UniqueIdentifier>{73cf7d49-3276-4674-8b48-9ab6aa5eefcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DuelClasses">
+      <UniqueIdentifier>{0c1ce382-cfc4-458f-8865-8cbc9fc2a06e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DuelClassCPPs">
+      <UniqueIdentifier>{24d1f131-6e1a-48c7-8722-e11506c0351d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\UnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="AliveUnit.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="UndeadUnit.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Infantry.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="ManaPool.cpp">
+      <Filter>Source Files\UnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Healer.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghoul.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Necromancer.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Dibbuk.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Revenant.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkLord.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs\UndeadBossCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Lich.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs\UndeadBossCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathKnight.cpp">
+      <Filter>Source Files\UnitCPPs\UndeadUnitCPPs\UndeadBossCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="UndeadHunter.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs\AliveBossCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Bladedancer.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs\AliveBossCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Paladin.cpp">
+      <Filter>Source Files\UnitCPPs\AliveUnitCPPs\AliveBossCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFactory.cpp">
+      <Filter>Source Files\SimulationClassCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="BossNameManager.cpp">
+      <Filter>Source Files\SimulationClassCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files\SimulationClassCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Source Files\SimulationClassCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitCounter.cpp">
+      <Filter>Source Files\HelperCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Duel.cpp">
+      <Filter>Source Files\DuelClassCPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\DuelClassCPPs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="UndeadUnit.h">
+      <Filter>Header Files\Units\UndeadUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="AliveUnit.h">
+      <Filter>Header Files\Units\AliveUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Infantry.h">
+      <Filter>Header Files\Units\AliveUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="ManaPool.h">
+      <Filter>Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Header Files\Units\AliveUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Header Files\Units\AliveUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Healer.h">
+      <Filter>Header Files\Units\AliveUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard.h">
+      <Filter>Header Files\Units\AliveUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Header Files\Units\UndeadUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghoul.h">
+      <Filter>Header Files\Units\UndeadUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Necromancer.h">
+      <Filter>Header Files\Units\UndeadUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Header Files\Units\UndeadUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Dibbuk.h">
+      <Filter>Header Files\Units\UndeadUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Revenant.h">
+      <Filter>Header Files\Units\UndeadUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files\Units\UndeadUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Lich.h">
+      <Filter>Header Files\Units\UndeadUnits\UndeadBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathKnight.h">
+      <Filter>Header Files\Units\UndeadUnits\UndeadBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="UndeadHunter.h">
+      <Filter>Header Files\Units\AliveUnits\AliveBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Paladin.h">
+      <Filter>Header Files\Units\AliveUnits\AliveBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Bladedancer.h">
+      <Filter>Header Files\Units\AliveUnits\AliveBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkLord.h">
+      <Filter>Header Files\Units\UndeadUnits\UndeadBosses</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFactory.h">
+      <Filter>Header Files\SimulationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BossNameManager.h">
+      <Filter>Header Files\SimulationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Army.h">
+      <Filter>Header Files\SimulationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Header Files\SimulationClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitCostHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitCounter.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Duel.h">
+      <Filter>Header Files\DuelClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\DuelClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSaveInterface.h">
+      <Filter>Header Files\Units</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bossNames.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="config.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="undeadWaves.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
